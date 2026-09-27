@@ -1,0 +1,1 @@
+ruid=1000 euid=0 suid=0
