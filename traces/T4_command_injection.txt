@@ -1,3 +1,4 @@
+rm: cannot remove '/tmp/E6A_PROOF': Operation not permitted
+0
 1000
-1000
--rw-rw-r-- 1 seed seed 0 Sep 27 19:47 /tmp/E6A_PROOF
+-rw-r--r-- 1 root root 0 Sep 27 19:58 /tmp/E6A_PROOF
