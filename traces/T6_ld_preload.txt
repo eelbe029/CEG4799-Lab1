@@ -1,0 +1,15 @@
+=== T6: LD_PRELOAD sur binaire normal (comparaison) ===
+./catall.c: line 6: syntax error near unexpected token `('
+
+=== T6: LD_PRELOAD sur copie NON Set-UID (doit fonctionner) ===
+LD_PRELOAD_ACTIF
+LD_PRELOAD_ACTIF
+LD_PRELOAD_ACTIF
+hello
+
+=== T6: LD_PRELOAD sur catall_e6b (Set-UID root) - doit etre ignore ===
+hello
+
+Conclusion: le message LD_PRELOAD_ACTIF apparait seulement pour le binaire
+non-privilegie. Le chargeur dynamique ignore LD_PRELOAD pour un programme
+Set-UID, ce qui empeche ce vecteur de detournement.
