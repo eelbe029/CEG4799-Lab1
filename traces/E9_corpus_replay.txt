@@ -1,0 +1,19 @@
+C1
+/bin/cat: '/dev/null; /usr/bin/touch /tmp/CORPUS_PROOF': No such file or directory
+C2
+/bin/cat: '/dev/null && /usr/bin/touch /tmp/CORPUS_PROOF': No such file or directory
+C3
+/bin/cat: '/dev/null | /usr/bin/touch /tmp/CORPUS_PROOF': No such file or directory
+C4
+/bin/cat: '$(/usr/bin/touch /tmp/CORPUS_PROOF)': No such file or directory
+C5
+/bin/cat: '`/usr/bin/touch /tmp/CORPUS_PROOF`': No such file or directory
+C6
+/bin/cat: '/dev/null'$'\n''/usr/bin/touch /tmp/CORPUS_PROOF': No such file or directory
+C7
+hello
+C8
+hello
+C9
+hello
+RESULT: PASS, all inputs inert

@@ -1,0 +1,6 @@
+Re-elevation to root: Operation not permitted
+Before drop:   real=1000 effective=0 saved=0
+Read /etc/shadow (needs root): OK
+After drop:    real=1000 effective=1000 saved=1000
+Read /etc/shadow (needs root): DENIED
+Final:         real=1000 effective=1000 saved=1000

@@ -1,0 +1,10 @@
+# id | type | payload | description
+C1 | injection | /dev/null; /usr/bin/touch /tmp/CORPUS_PROOF | semicolon starts a second command
+C2 | injection | /dev/null && /usr/bin/touch /tmp/CORPUS_PROOF | AND operator runs a second command
+C3 | injection | /dev/null | /usr/bin/touch /tmp/CORPUS_PROOF | pipe starts a second command
+C4 | injection | $(/usr/bin/touch /tmp/CORPUS_PROOF) | command substitution
+C5 | injection | `/usr/bin/touch /tmp/CORPUS_PROOF` | backtick substitution
+C6 | injection | /dev/null then newline then touch command | newline separates commands
+C7 | environment | PATH=/tmp/evil:$PATH | fake cat placed first in PATH
+C8 | environment | IFS=/ | changes how the shell splits words
+C9 | environment | LD_PRELOAD=/tmp/evil.so | preloads a malicious library
