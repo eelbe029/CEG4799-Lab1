@@ -40,4 +40,4 @@
 ## Outils d'IA generative
 - Claude (Anthropic) utilise pour expliquer les concepts (privilege Set-UID, execve, IFS,
   comportement de dash) et pour aider a rediger/deboguer le code de E7-E9 et le corpus.
-  Tout le code a ete revu, teste et peut etre explique par Souheib Al-ahdal.
+  Tout le code a ete revu, teste et peut etre explique par Souheib Al-ahdal et El Hadj El Bechir .
