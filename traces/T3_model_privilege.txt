@@ -1,1 +1,2 @@
+-rwsr-xr-x 1 root root 17000 Sep 27 19:28 catall_e4
 ruid=1000 euid=0 suid=0

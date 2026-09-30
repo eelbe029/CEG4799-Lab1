@@ -1,2 +1,6 @@
-/bin/cat: '/dev/null; /usr/bin/id -u; /usr/bin/id -ru; /usr/bin/touch /tmp/E6A_PROOF': No such file or directory
+=== Rejeu injection de commande (E6a) ===
+/bin/cat: '/dev/null; /usr/bin/id -u; /usr/bin/touch /tmp/E6A_PROOF': No such file or directory
 ls: cannot access '/tmp/E6A_PROOF': No such file or directory
+
+=== Rejeu detournement PATH (E6b) ===
+ls: cannot access '/tmp/E6B_PROOF': No such file or directory

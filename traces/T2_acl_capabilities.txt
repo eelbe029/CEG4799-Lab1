@@ -1,4 +1,4 @@
--rwxr-xr-x 1 root root 17008 Sep 27 18:43 cap_leak
+-rwxrwxr-x 1 root root 17008 Sep 29 15:04 cap_leak
 cap_leak = cap_dac_override+ep
 getfacl: Removing leading '/' from absolute path names
 # file: home/lab1_shared

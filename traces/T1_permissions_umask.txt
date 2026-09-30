@@ -1,4 +1,4 @@
-drwxrws--T+ 2 lab1_user1 lab1_groupA 4096 Sep 27 18:26 /home/lab1_shared
+drwxrws--T+ 2 lab1_user1 lab1_groupA 4096 Sep 29 15:03 /home/lab1_shared
 getfacl: Removing leading '/' from absolute path names
 # file: home/lab1_shared
 # owner: lab1_user1
@@ -10,14 +10,8 @@ group::rwx
 mask::rwx
 other::---
 
-Password: 
-0007
--rw-rw---- 1 lab1_user1 lab1_groupA 0 Sep 27 19:42 /home/lab1_shared/file_user1
-Password: 
-0007
--rw-rw---- 1 lab1_user2 lab1_groupA 0 Sep 27 19:42 /home/lab1_shared/file_user2
-total 0
--rw-rw---- 1 lab1_user1 lab1_groupA 0 Sep 27 19:42 file_user1
--rw-rw---- 1 lab1_user2 lab1_groupA 0 Sep 27 19:42 file_user2
-Password: 
+0002
+-rw-rw-r-- 1 lab1_user1 lab1_groupA 0 Sep 29 15:09 /home/lab1_shared/file_user1
+0002
+-rw-rw-r-- 1 lab1_user2 lab1_groupA 0 Sep 29 15:09 /home/lab1_shared/file_user2
 rm: cannot remove '/home/lab1_shared/file_user1': Operation not permitted
